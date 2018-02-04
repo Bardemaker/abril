@@ -1,0 +1,238 @@
+@charset "iso-8859-1";
+
+.impar { background-color:#F1F1F1; }
+.par { background-color:#FFFFFF; }
+body {font-family:Arial, sans-serif;}
+
+.lista {
+  font-family:sans-serif;
+}
+
+
+#parent {
+    width: 800px;
+    height: 300px;
+	background-image:url(../images/bg_box.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+    /*background-color: red; */
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.linha_clicavel
+{
+	cursor:pointer;
+}
+
+.bolinha{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+  }
+  
+  #btnup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#btnup:hover {
+  background-color: #555;
+}
+
+#upload {
+    width: 800px;
+    height: 70px;
+	/* background-image:url(img/bg_upload.png); */
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+    /*background-color: red; */
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+
+#boxsenha {
+    width: 800px;
+    height: 780px;
+	/* background-image:url(img/bg_upload.png); */
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+    /*background-color: red; */
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#boxsenhaok {
+    width: 800px;
+    height: 100px;
+	/* background-image:url(img/bg_upload.png); */
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+    /*background-color: red; */
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#boxeditaprova {
+    width: 800px;
+    height: 310px;
+	/* background-image:url(img/bg_upload.png); */
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+    /*background-color: red; */
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+/* 
+.tabela {
+  border:solid 5px #eee;
+}
+
+td {
+  padding:10px; 
+  border:solid 1px #eee;
+}
+ */
+
+input:not([type='image']) {
+  border:solid 1px #ccc;
+  border-radius: 5px;
+  padding:7px 14px;
+  margin-bottom:10px
+}
+
+.no_css {
+	border: none;
+
+}
+
+input:focus {
+  outline:none;
+  border-color:#aaa;
+}
+textarea {
+  border:solid 1px #ccc;
+  border-radius: 5px;
+  padding:7px 14px;
+  margin-bottom:10px
+}
+textarea:focus {
+  outline:none;
+  border-color:#aaa;
+}
+.sort {
+  padding:8px 30px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  color:#fff;
+  text-decoration: none;
+  background-color: #28a8e0;
+  height:30px;
+}
+.sort:hover {
+  text-decoration: none;
+  background-color:#1b8aba;
+}
+.sort:focus {
+  outline:none;
+}
+.sort:after {
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
+}
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:4px;
+  right:-5px;
+}
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content:"";
+  position: relative;
+  top:-4px;
+  right:-5px;
+}
+
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+
+
+
+/* CSS Document */
+
